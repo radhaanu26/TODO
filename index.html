@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title></title>
+  </head>
+  <body>
+    <!-- <input placeholder="What do you want to do?"> </input> -->
+
+    <div class="todoApp">
+      <h1 class="todoTitle">ToDo List</h1>
+      <input type="text" class="todoInput" placeholder="What do want to do?" />
+
+      <ul class="todoList">
+          <!-- <li class="todoItem">
+              <input type="checkbox" class="todoCheckbox"/>
+              <span class="todoText">Swimming</span>
+              <button class="closeButton">X</button>
+          </li> -->
+          
+      </ul>
+      <div class="filter">
+        <button class="displayAll selected" onclick="select('all')">All</button>
+        <button class="activeAll" onclick="select('active')">Active</button>
+        <button class="completedAll" onclick="select('completed')">Completed</button>
+      </div>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
